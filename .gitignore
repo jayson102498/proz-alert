@@ -1,0 +1,9 @@
+# Directories
+node_modules/
+logs
+build
+# Files
+.env
+.DS_Store
+# Dependency lock files
+package-lock.json

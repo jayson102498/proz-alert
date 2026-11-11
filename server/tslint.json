@@ -1,0 +1,32 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "rules": {
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "indent": [
+            true,
+            "spaces",
+            2
+        ],
+        "no-console": false,
+        "no-var-requires": false,
+        "object-literal-sort-keys": false,
+        "no-trailing-whitespace": true
+    },
+    "linterOptions": {
+        "exclude": [
+            "node_modules/**"
+        ]
+    },
+    "files": [
+        "src/**/*.ts"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ]
+}
